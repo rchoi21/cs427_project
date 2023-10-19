@@ -195,6 +195,16 @@ public class GrabbableObject : CAVE2Interactable {
         }
     }
 
+    public bool getGrabbed()
+    {
+        return grabbed;
+    }
+
+    public bool getWasGrabbed()
+    {
+        return wasGrabbed;
+    }
+
     void FixedUpdate()
     {
         if( grabbed )
