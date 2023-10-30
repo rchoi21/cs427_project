@@ -64,8 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DoorOpenScript.cs" />
-    <Compile Include="Assets\lampThrow.cs" />
+    <Compile Include="Assets\1970s Furniture\Old Nightstand\Demo\demoBehaviour.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\module-omicron-master\CAVE2\Examples\CAVESimulator\Scripts\CAVE2Display.cs" />
@@ -201,6 +200,10 @@
     <Compile Include="Assets\module-omicron-master\Tests\Mocap\Mocap3DText.cs" />
     <Compile Include="Assets\module-omicron-master\Tests\Mocap\OmicronMocapObject.cs" />
     <Compile Include="Assets\module-omicron-master\Tests\Touch\SimpleCanvasTouch.cs" />
+    <Compile Include="Assets\scripts\DoorOpenScript.cs" />
+    <Compile Include="Assets\scripts\lampThrow.cs" />
+    <Compile Include="Assets\scripts\playMusic.cs" />
+    <Compile Include="Assets\scripts\ToggleDirectionalLight.cs" />
     <Compile Include="Assets\Stellar Sky\Demo\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -235,7 +238,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\ToggleDirectionalLight.cs" />
     <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -258,8 +260,8 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Tim's Assets\Doors\Shader\BloodyDoor.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\1970s Furniture\Chair\Read Me.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
