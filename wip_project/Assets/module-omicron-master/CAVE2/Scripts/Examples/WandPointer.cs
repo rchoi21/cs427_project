@@ -31,7 +31,7 @@ using System.Collections;
 public class WandPointer : MonoBehaviour
 {
     public int wandID = 1;
-
+    private Light dirLight;
     public bool laserActivated;
     float laserDistance;
     bool wandHit;
@@ -54,9 +54,12 @@ public class WandPointer : MonoBehaviour
     public bool laserAlwaysOn = false;
     public bool laserButtonPressed;
 
+    private bool isButtonReleased = true;
     // Use this for initialization
     void Start()
     {
+        dirLight = GetComponentInChildren<Light>();
+
         // Laser line
         laser = gameObject.AddComponent<LineRenderer>();
 #if UNITY_5_5_OR_NEWER
@@ -80,7 +83,6 @@ public class WandPointer : MonoBehaviour
         laserParticle = Instantiate(laserParticlePrefab);
         ParticleSystem.MainModule particleMain = laserParticle.main;
         particleMain.startSize = particleSize;
-
         // Set particle color, but ensure color has at least a small r, g, b component to get a white glow in the middle
         particleMain.startColor = new Color(Mathf.Max(laserColor.r, 0.2f) / 2.0f, Mathf.Max(laserColor.g, 0.2f) / 2.0f, Mathf.Max(laserColor.b, 0.2f) / 2.0f);
     }
@@ -93,6 +95,18 @@ public class WandPointer : MonoBehaviour
 		laserButtonPressed = CAVE2.Input.GetButton(wandID,laserButton);
 
         bool drawLaserOverride = drawLaser;
+
+        // Check if the laser button is pressed and the button was released before
+            if (laserButtonPressed && isButtonReleased) {
+                dirLight.enabled = !dirLight.enabled; // Toggle the light
+                isButtonReleased = false; // Set the flag to false until the button is released
+            }
+
+            // When the button is released, set the flag back to true
+            if (!laserButtonPressed) {
+                isButtonReleased = true;
+            }
+
 
         if (laserAlwaysOn)
         {

@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class ToggleDirectionalLight : MonoBehaviour
 {
     private Light dirLight;
-    public KeyCode toggleKey = KeyCode.Space;  // Key to toggle the light
+    public CAVE2.Button toggleKey = CAVE2.Button.Button5;
+    public int wandID = 1;
 
     private void Start()
     {
@@ -18,7 +20,9 @@ public class ToggleDirectionalLight : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(toggleKey))
+    Debug.Log(CAVE2.Input.GetButton(1, toggleKey));
+
+        if (CAVE2.Input.GetButton(wandID,toggleKey))
         {
             ToggleLight();
         }
