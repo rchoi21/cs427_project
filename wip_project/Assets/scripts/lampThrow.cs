@@ -11,8 +11,8 @@ public class lampThrow : MonoBehaviour
     public float intensity = 0;
     public float range = 0;
 
-    // Room1Light == Room1Light.intensity = 0.8F; && Room1Light.range = 80;
-    // Room1Light == Room1Light.intensity = 0.6F; && Room1Light.range = 60;
+    private bool lightOn = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,8 +28,12 @@ public class lampThrow : MonoBehaviour
         if (lamp.getGrabbed() == false && lamp.getWasGrabbed() == true)
         {
             // Debug.Log("Am i ever here?");
-            RoomLight.intensity = intensity;
-            RoomLight.range = range;
+            if (!lightOn)
+            {
+                RoomLight.intensity = intensity;
+                RoomLight.range = range;
+                lightOn = true;
+            }
         }
     }
 }
