@@ -35,3 +35,13 @@ Solution Sources:
 https://www.politico.com/news/magazine/2023/05/04/solving-the-housing-crisis-00095075
 
 https://www.youtube.com/watch?v=hLVfyKOeWc4
+
+Average house prices and average annual income in the US figures:
+
+[1970s average annual income](https://www.census.gov/library/publications/1971/demo/p60-80.html#:~:text=The%20median%20money%20income%20of,the%20same%20as%20in%201969.)
+
+[1970 average house price](https://www.huduser.gov/periodicals/ushmc/winter2001/histdat08.htm)
+
+[2023 average annual income](https://www.jobted.com/salary#:~:text=According%20to%20the%20latest%20data,40%2Dhour%20work%20week).)
+
+[2023 average house price](https://www.rockethomes.com/blog/housing-market/median-home-price-by-state#:~:text=What%20Is%20The%20Average%20Home,the%20fourth%20quarter%20was%20%24479%2C500.)
