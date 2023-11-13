@@ -341,7 +341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $234,000
+  m_text: $416,100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1437,7 +1437,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3142,7 +3142,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5496,7 +5496,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $5,620
+  m_text: $9,870
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5530,7 +5530,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -8144,7 +8144,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -11344,6 +11344,52 @@ PrefabInstance:
 
         Veronica Gonzalez'
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012607288206, guid: c1621f4dd1e8c2748a5a423aa7736d55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010683909002, guid: c1621f4dd1e8c2748a5a423aa7736d55,
+        type: 3}
+      propertyPath: m_Text
+      value: "Whereas for the 2023 room, the average income text is smaller than the
+        house price (since the house price is approximately 7.8x the 2023 average
+        annual income in the US).\n\nOur other two interactions include a flashlight,
+        which the user can turn on/off via a button click, and a grab-and-throw mechanic
+        on the lamps that glow in each room. The idea was that the user would be in
+        the dark (literally) to show how many people are \"in the dark\" about how
+        terrible the housing crisis is right now. The flashlight, representing the
+        bits of news/knowledge and the efforts of other people, will guide us to a
+        lamp which will then light up the whole room (representing how we are making
+        the problem clearer by accumulating knowledge/awareness and effort). We also
+        try to\"shed some light\" on the problem by adding facts about the housing
+        crisis in the little passageways between each room. \n\nOur final room shows
+        our solution: Putting more attention to the need of a single, all-encompassing
+        statistic, similar to the unemployment rate. We also reference a YouTube video
+        that lists 5 companies that are making an effort for affordable housing that
+        the user can look into."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011111918770, guid: c1621f4dd1e8c2748a5a423aa7736d55,
+        type: 3}
+      propertyPath: m_Text
+      value: "Sustainable Goal: Reduced Inequality\nThis project aims to demonstrate
+        the rising unaffordability in the housing market.\n\nUsing two rooms that
+        represent houses of different generations, we show how different the average
+        American lived in each generation. We show the suffocating concern for housing
+        via literally making the space for the modern \"house\" much smaller and cramped
+        to convey a physical claustrophobic feeling. \nOur doors are triggered by
+        the user colliding into them. We added sound to each room to better imply
+        what time period we are trying to emulate and they start playing when the
+        door to enter has been triggered. The sound will stop when the user exits
+        the room by triggering the exit door to open.\n\nWe have also added the average
+        income of an American, in green, in the entrance of both \"house\" rooms.
+        Then we added the average house price of the era, in red, on the exiting door.
+        In the first \"house,\" the green text of the average income is purposefully
+        sized bigger and bolder than the red average house price. This was because
+        the numbers themselves may not be very intuitive. However, with the sizing,
+        we hoped to portray how the income was pretty reasonable to buy a house in
+        the 1970s (the house price being around 2.4x the average annual income of
+        1970). "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1621f4dd1e8c2748a5a423aa7736d55, type: 3}
 --- !u!1001 &1645091448
@@ -13116,7 +13162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $59,428
+  m_text: $53,490
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
